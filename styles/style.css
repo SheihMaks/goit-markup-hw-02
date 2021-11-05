@@ -48,7 +48,7 @@ body {
 
 .web-link {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -57,7 +57,7 @@ body {
 
 .studio-link {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -165,7 +165,7 @@ body {
 .order {
   display: inline-flex;
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -191,7 +191,7 @@ body {
 }
 
 .skills-main {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -212,7 +212,7 @@ body {
 }
 
 .our-work-main {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -244,7 +244,7 @@ body {
 }
 
 .team-main {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -330,7 +330,7 @@ body {
 }
 
 .location {
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -339,7 +339,6 @@ body {
 }
 
 .mail-ft {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -354,7 +353,6 @@ body {
 
 .telephone-ft {
   display: block;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -420,7 +418,7 @@ body {
 }
 
 .name-project {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
