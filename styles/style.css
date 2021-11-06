@@ -4,7 +4,7 @@
   --main-text-color: rgba(117, 117, 117, 1);
   --second-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: rgba(33, 150, 243, 1);
-  --background-color: rgba(229, 229, 229);
+  --background-color: rgba(255, 255, 255, 1);
 }
 
 * {
@@ -178,6 +178,11 @@ body {
   padding: 10px 32px;
   border: none;
   cursor: pointer;
+}
+
+.order:hover,
+.order:focus {
+  background-color: #188ce8;
 }
 /***************************************************************Skills**********************************************************************/
 .skills {
