@@ -191,7 +191,6 @@ body {
 }
 
 .skills-main {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -212,7 +211,6 @@ body {
 }
 
 .our-work-main {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -220,6 +218,7 @@ body {
   color: var(--second-title-color);
   padding-bottom: 50px;
 }
+
 .our-work-list {
   display: flex;
   margin: 0 -15px;
@@ -244,7 +243,6 @@ body {
 }
 
 .team-main {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -418,7 +416,6 @@ body {
 }
 
 .name-project {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
