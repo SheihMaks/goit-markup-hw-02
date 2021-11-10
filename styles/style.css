@@ -5,12 +5,36 @@
   --second-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: rgba(33, 150, 243, 1);
   --background-color: rgba(255, 255, 255, 1);
+  --second-background-color: rgba(47, 48, 58, 1);
 }
 
-* {
-  padding: 0;
-  margin: 0;
+html {
   box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: var(--second-background-color);
 }
 
 *:focus {
@@ -31,7 +55,7 @@ body {
   text-decoration: none;
 }
 
-.main-container {
+.container {
   max-width: 1200px;
   margin: auto;
 }
@@ -67,7 +91,7 @@ body {
 
 /*************************************************************Navigation******************************************************************/
 
-.container {
+.main-container {
   display: flex;
   justify-content: space-between;
 }
@@ -146,7 +170,7 @@ body {
 /****************************************************************main*************************************************************************/
 
 .solutions {
-  background: #2f303a;
+  background-color: var(--second-background-color);
   text-align: center;
   padding-bottom: 280px;
 }
@@ -300,11 +324,6 @@ body {
 /*************************************************************Footer**************************************************************************/
 .container-ft {
   background-color: #2f303a;
-}
-
-.contacts-ft {
-  max-width: 1200px;
-  margin: auto;
 }
 
 .ft-link {
