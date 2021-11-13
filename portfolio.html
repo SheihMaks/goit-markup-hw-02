@@ -10,7 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Портфолио</title>
   </head>
@@ -24,11 +30,15 @@
               ><span class="studio-link">Studio</span></a
             >
             <ul class="navigation list">
-              <li><a href="index.html" class="studio link">Студия</a></li>
-              <li>
+              <li class="header-item">
+                <a href="index.html" class="studio link">Студия</a>
+              </li>
+              <li class="header-item">
                 <a href="portfolio.html" class="portfolio link">Портфолио</a>
               </li>
-              <li><a href="#0" class="contacts link">Контакты</a></li>
+              <li class="header-item">
+                <a href="#0" class="contacts link">Контакты</a>
+              </li>
             </ul>
           </nav>
           <ul class="list-contacts list">
@@ -75,15 +85,19 @@
                   alt="Технокряк"
                   width="370"
                 />
-                <h2 class="name-project">Технокряк</h2>
-                <p class="project-description">Веб-сайт</p></a
-              >
+                <div class="about-card">
+                  <h2 class="name-project">Технокряк</h2>
+                  <p class="project-description">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
                 ><img src="./images/design.jpg" alt="Дизайн" width="370" />
-                <h2 class="name-project">Постер New Orlean vs Golden Star</h2>
-                <p class="project-description">Дизайн</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Постер New Orlean vs Golden Star</h2>
+                  <p class="project-description">Дизайн</p>
+                </div></a
               >
             </li>
             <li class="content-list">
@@ -93,22 +107,28 @@
                   alt="Ресторан Seafood"
                   width="370"
                 />
-                <h2 class="name-project">Ресторан Seafood</h2>
-                <p class="project-description">Приложение</p></a
-              >
+                <div class="about-card">
+                  <h2 class="name-project">Ресторан Seafood</h2>
+                  <p class="project-description">Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
                 ><img src="./images/prime.jpg" alt="Проект Prime" width="370" />
-                <h2 class="name-project">Проект Prime</h2>
-                <p class="project-description">Маркетинг</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Проект Prime</h2>
+                  <p class="project-description">Маркетинг</p>
+                </div></a
               >
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
                 ><img src="./images/boxes.jpg" alt="Проект Boxes" width="370" />
-                <h2 class="name-project">Проект Boxes</h2>
-                <p class="project-description">Приложение</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Проект Boxes</h2>
+                  <p class="project-description">Приложение</p>
+                </div></a
               >
             </li>
             <li class="content-list">
@@ -118,9 +138,11 @@
                   alt="Веб-сайт"
                   width="370"
                 />
-                <h2 class="name-project">Inspiration has no Borders</h2>
-                <p class="project-description">Веб-сайт</p></a
-              >
+                <div class="about-card">
+                  <h2 class="name-project">Inspiration has no Borders</h2>
+                  <p class="project-description">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
@@ -129,22 +151,28 @@
                   alt="Ограниченное издание"
                   width="370"
                 />
-                <h2 class="name-project">Издание Limited Edition</h2>
-                <p class="project-description">Дизайн</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Издание Limited Edition</h2>
+                  <p class="project-description">Дизайн</p>
+                </div></a
               >
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
                 ><img src="./images/lab.jpg" alt="Проет Lab" width="370" />
-                <h2 class="name-project">Проект LAB</h2>
-                <p class="project-description">Маркетинг</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Проект LAB</h2>
+                  <p class="project-description">Маркетинг</p>
+                </div></a
               >
             </li>
             <li class="content-list">
               <a href="" class="link content-link"
                 ><img src="./images/business.jpg" alt="Бизнес" width="370" />
-                <h2 class="name-project">Growing Business</h2>
-                <p class="project-description">Приложение</p></a
+                <div class="about-card">
+                  <h2 class="name-project">Growing Business</h2>
+                  <p class="project-description">Приложение</p>
+                </div></a
               >
             </li>
           </ul>
